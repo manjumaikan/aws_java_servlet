@@ -7,7 +7,11 @@ ansible
 assumptions:
 
 - AWS credentials are configured on the machine running the ansible playbook.
-- S3 bucket and dynamo db are created beforehand. terraform files and their state files are stored under terraform/common
+- S3 bucket and dynamo db tables are created beforehand using terraform/common/* to store terraform state file of EC2 instance.
+
+facts:
+
+- for project purposes, apro is used as the repository to download terraform. it can be replaced by <https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_linux_amd64.zip> for common use.
 
 run:
 
