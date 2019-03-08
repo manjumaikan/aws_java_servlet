@@ -1,4 +1,4 @@
-# Java servlet on a dockerized Alpine Linux image, hosted on AWS EC2 instance.
+# Dockerized Java servlet on an Alpine Linux image, hosted on AWS EC2 instance.
 
 prerequisite:
 
