@@ -15,7 +15,7 @@ facts:
 
 run:
 
-ansible-playbook playbooks/mmk_java_server/runall.yml -i inventory/deploy_instances --private-key secrets/mmk-java-servlet-key-pair.pem -e "TF_VAR_AWS_PROFILE=saml TF_VAR_AWS_REGION=ap-southeast-2"
+ansible-playbook playbooks/mmk_java_server/runall.yml -i inventory/deploy_instances --private-key secrets/mmk-java-servlet-key-pair.pem -e "TF_VAR_AWS_PROFILE=<aws profile name> TF_VAR_AWS_REGION=<aws region>"
 
 usage:
 
