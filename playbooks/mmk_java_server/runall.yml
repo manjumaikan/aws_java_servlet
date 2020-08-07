@@ -13,6 +13,5 @@
   gather_facts: true
 
   roles:
-    - yumrepos
     - install-softwares
     - docker
